@@ -319,7 +319,7 @@ if __name__ == '__main__':
         head = args.head_number
         save_path = args.save_path
         metric = args.metric
-
+        ########## Please Load Pre-train weights here !!!!!!!!!!!!!!!
         model = MinimalRNN(nb_classes=nb_classes, nb_mri=90, nb_pet=90, h_mri=h_mri, h_pet=h_pet,
                            h_drop=h_drop, i_drop=i_drop, nb_layers1=nb_layers1, nb_layers2=nb_layers2,
                            alpha=0.9, beta=0.1).to(device)
