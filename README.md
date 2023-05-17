@@ -7,4 +7,4 @@ SimpleITK 2.0.2
 nibabel 3.2.1  
 argparse 1.4.0  
 
-More details will be posted when the article is accepted.
+More details will be posted when the paper is accepted.
